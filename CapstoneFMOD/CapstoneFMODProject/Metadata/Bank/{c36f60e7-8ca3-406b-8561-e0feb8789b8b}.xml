@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Bank" id="{c36f60e7-8ca3-406b-8561-e0feb8789b8b}">
+		<property name="name">
+			<value>Dialogue</value>
+		</property>
+		<relationship name="folder">
+			<destination>{412354b2-1a6c-4149-af63-4c25ecb77653}</destination>
+		</relationship>
+		<relationship name="audioTable">
+			<destination>{dfb10efd-90ff-4c76-b444-9a96bd1ad9df}</destination>
+		</relationship>
+	</object>
+	<object class="AudioTable" id="{dfb10efd-90ff-4c76-b444-9a96bd1ad9df}">
+		<property name="name">
+			<value>DialogueFiles</value>
+		</property>
+		<property name="sourceDirectory">
+			<value>../../CapstoneUnity/Assets/FMODBanks/AudioTable</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Workspace" id="{0fa587ca-dcab-49c2-9419-cdb9004a0ee6}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../CapstoneUnity/Assets/FMODBanks</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{1b0cfd7c-2ea1-43cb-b5ce-af308d161095}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{d1974c82-2ce4-4fbf-9b65-00c430da3647}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{4f502961-6937-4d7b-a3f4-dd1963030d10}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{412354b2-1a6c-4149-af63-4c25ecb77653}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{2ca721ac-cac3-4019-9ce4-10f9ff8ea5ee}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{31937443-0ff4-49fc-85e9-5886de490af1}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{d24c8d2d-b42b-4caf-a2fd-3295b2c9175f}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{efb1e829-369e-4af9-9983-73f28ddee753}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{cac254d0-9dff-41d0-82b2-19ca5bcbabcd}</destination>
+		</relationship>
+	</object>
+</objects>

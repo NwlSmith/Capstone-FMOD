@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{afbc5eb8-ae85-4a92-aa6f-90b41eae6a33}">
+		<property name="name">
+			<value>LeverResistance</value>
+		</property>
+		<relationship name="folder">
+			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{75c10042-b6e8-46af-907d-845e21a17694}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{75c10042-b6e8-46af-907d-845e21a17694}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{bed569e5-60d9-4fb6-b6ee-3acc280ad264}">
+		<property name="name">
+			<value>sandstorm</value>
+		</property>
+		<relationship name="folder">
+			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{99216ece-ae65-411b-9c2d-8b943e567081}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{99216ece-ae65-411b-9c2d-8b943e567081}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

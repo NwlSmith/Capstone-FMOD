@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{06e770f0-021f-4667-b0b4-51603ffa2047}">
+		<property name="name">
+			<value>Sucking</value>
+		</property>
+		<relationship name="folder">
+			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{efa18ee2-e86d-452f-ac0f-df2a66e1d1c3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{efa18ee2-e86d-452f-ac0f-df2a66e1d1c3}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

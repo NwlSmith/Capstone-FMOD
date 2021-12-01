@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{66c69c16-4c00-4bd9-bd04-dc1aa1532404}">
+		<property name="name">
+			<value>WheelSpin</value>
+		</property>
+		<relationship name="folder">
+			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{9a3a22b7-985b-46e1-ae94-9c573ee8a30a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{9a3a22b7-985b-46e1-ae94-9c573ee8a30a}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
