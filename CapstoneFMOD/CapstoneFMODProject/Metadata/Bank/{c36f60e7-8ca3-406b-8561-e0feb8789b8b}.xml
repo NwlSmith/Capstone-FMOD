@@ -16,7 +16,7 @@
 			<value>DialogueFiles</value>
 		</property>
 		<property name="sourceDirectory">
-			<value>../../CapstoneUnity/Assets/FMODBanks/AudioTable</value>
+			<value>../../../CapstoneUnity/Assets/FMODBanks/AudioTable</value>
 		</property>
 	</object>
 </objects>

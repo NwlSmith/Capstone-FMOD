@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Workspace" id="{0fa587ca-dcab-49c2-9419-cdb9004a0ee6}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../CapstoneUnity/Assets/FMODBanks</value>
+			<value>../../../CapstoneUnity/Assets/FMODBanks</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{1b0cfd7c-2ea1-43cb-b5ce-af308d161095}</destination>
