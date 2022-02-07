@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="Bank" id="{8e2724eb-2b95-40d9-98f4-24fa80b096f4}">
+		<property name="name">
+			<value>Docking</value>
+		</property>
+		<relationship name="folder">
+			<destination>{412354b2-1a6c-4149-af63-4c25ecb77653}</destination>
+		</relationship>
+	</object>
+</objects>

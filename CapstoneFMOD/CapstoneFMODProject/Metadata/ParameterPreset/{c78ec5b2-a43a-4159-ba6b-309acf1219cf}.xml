@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{c78ec5b2-a43a-4159-ba6b-309acf1219cf}">
+		<property name="name">
+			<value>ShipLowering</value>
+		</property>
+		<relationship name="folder">
+			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{73c0c80c-f1c7-4205-8ff5-55a3fa58ef61}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{73c0c80c-f1c7-4205-8ff5-55a3fa58ef61}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
