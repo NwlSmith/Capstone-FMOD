@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="ParameterPreset" id="{130acc9f-041d-4862-a6ac-93aa095a4c54}">
 		<property name="name">
-			<value>ShipRotating</value>
+			<value>Vertical</value>
 		</property>
 		<relationship name="folder">
 			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
