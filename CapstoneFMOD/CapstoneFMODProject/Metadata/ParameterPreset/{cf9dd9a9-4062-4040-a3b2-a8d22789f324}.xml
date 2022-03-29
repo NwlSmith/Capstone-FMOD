@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{cf9dd9a9-4062-4040-a3b2-a8d22789f324}">
+		<property name="name">
+			<value>PylonSpeed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8e2028ed-921b-4a90-bb0e-02491cd094ac}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8e2028ed-921b-4a90-bb0e-02491cd094ac}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
