@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{95659ad4-fcce-4bec-b52c-0025f0004ad6}">
+		<property name="name">
+			<value>FastMove</value>
+		</property>
+		<relationship name="folder">
+			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8cadc817-5299-41e0-8e1a-ab2b18f6560e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8cadc817-5299-41e0-8e1a-ab2b18f6560e}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
