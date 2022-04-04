@@ -60,6 +60,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{cc7c4aba-3c38-42b2-8ab8-f663c6bab8e5}">
+		<relationship name="masters">
+			<destination>{d5acef00-fdbc-43c3-8f10-d481ae556298}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{810632e4-a924-454e-a610-d54577079f90}</destination>
 		</relationship>
@@ -456,6 +459,7 @@
 	<object class="MixerBusEffectChain" id="{d6b5c5eb-026d-49fc-8442-36468ec8a7f2}">
 		<relationship name="effects">
 			<destination>{bc0d048a-8a09-4544-9e66-d0b6c84753f8}</destination>
+			<destination>{c83d377b-a10f-4a00-b7cf-2411617e8a13}</destination>
 			<destination>{9ea3b2e8-087e-4ab9-92a2-276f51661262}</destination>
 		</relationship>
 	</object>
@@ -592,6 +596,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{bc0d048a-8a09-4544-9e66-d0b6c84753f8}" />
+	<object class="SpatialiserEffect" id="{c83d377b-a10f-4a00-b7cf-2411617e8a13}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="SpatialiserEffect" id="{9ea3b2e8-087e-4ab9-92a2-276f51661262}">
 		<property name="distanceRolloffType">
 			<value>2</value>
@@ -794,7 +803,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-20</value>
+			<value>0</value>
 		</property>
 		<property name="curveShape">
 			<value>0.377074301</value>
@@ -848,10 +857,10 @@
 	</object>
 	<object class="AutomationPoint" id="{e91ad40f-1798-4d0f-b53a-9824402fc9e9}">
 		<property name="position">
-			<value>0.50141242937853103</value>
+			<value>0.5</value>
 		</property>
 		<property name="value">
-			<value>-20</value>
+			<value>-10</value>
 		</property>
 		<property name="curveShape">
 			<value>0.356008589</value>
@@ -878,10 +887,10 @@
 	</object>
 	<object class="AutomationPoint" id="{bb89d961-313d-4b0d-8b14-c509a00bf848}">
 		<property name="position">
-			<value>0.99576271186440679</value>
+			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-6</value>
+			<value>6</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{76c47c8f-3db3-4b24-8979-8995d7e3fd75}">
