@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{d751bca8-9e97-4ccc-b942-38b30e693b6c}">
+		<property name="name">
+			<value>ItemType_Railing</value>
+		</property>
+		<relationship name="folder">
+			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{91211d0a-fe0a-48c5-a327-1e5ee97af0f8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{91211d0a-fe0a-48c5-a327-1e5ee97af0f8}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
