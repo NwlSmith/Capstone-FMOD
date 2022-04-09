@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{c729eadc-46f5-4234-9612-ffe157126264}">
 		<property name="assetPath">
-			<value>4.9.22 Music Imports/Drone_Loop_V1.wav</value>
+			<value>4.9.22 Music Imports/Loops/Drone_Loop_V1.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
