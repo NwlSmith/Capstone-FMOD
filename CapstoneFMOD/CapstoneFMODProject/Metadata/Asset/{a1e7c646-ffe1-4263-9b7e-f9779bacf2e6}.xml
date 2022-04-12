@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{a1e7c646-ffe1-4263-9b7e-f9779bacf2e6}">
+		<property name="assetPath">
+			<value>4.12.22 Music Imports/Drone Synth Oneshots/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{31937443-0ff4-49fc-85e9-5886de490af1}</destination>
+		</relationship>
+	</object>
+</objects>
