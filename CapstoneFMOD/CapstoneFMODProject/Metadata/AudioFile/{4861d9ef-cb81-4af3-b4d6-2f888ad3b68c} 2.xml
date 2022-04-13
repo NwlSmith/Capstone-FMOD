@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{4861d9ef-cb81-4af3-b4d6-2f888ad3b68c}">
 		<property name="assetPath">
-			<value>4.9.22 Music Imports/Panic_Low_Loop_V1.wav</value>
+			<value>4.9.22 Music Imports/Loops/Panic_Low_Loop_V1.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
