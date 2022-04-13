@@ -5,7 +5,7 @@
 			<value>Music</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1b0cfd7c-2ea1-43cb-b5ce-af308d161095}</destination>
@@ -197,6 +197,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{20777bbb-680f-4e8a-acc0-ca17a63ef8ad}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{b36d3aee-70c9-4cdc-ae73-9db972e93dd2}</destination>
 		</relationship>
@@ -560,6 +563,7 @@
 	<object class="MixerBusEffectChain" id="{b36d3aee-70c9-4cdc-ae73-9db972e93dd2}">
 		<relationship name="effects">
 			<destination>{38476674-8ab9-4428-ac03-732375508297}</destination>
+			<destination>{84a157c9-10c9-45b7-8a48-f1177fc9d5ef}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4bcf78ee-b1f8-4ee5-b175-a6073d52eefb}" />
@@ -746,6 +750,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{0535f035-a5f8-460c-bcb1-e2fbd7f9a541}" />
 	<object class="MixerBusFader" id="{38476674-8ab9-4428-ac03-732375508297}" />
+	<object class="SpatialiserEffect" id="{84a157c9-10c9-45b7-8a48-f1177fc9d5ef}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{6a036f24-daac-4254-9768-f8450625685f}" />
 	<object class="MixerBusFader" id="{71d35928-62cd-48fe-b371-176731227c8d}" />
 	<object class="AutomationCurve" id="{a3efdef3-7bba-428d-b458-bb2c0975ba7f}">
