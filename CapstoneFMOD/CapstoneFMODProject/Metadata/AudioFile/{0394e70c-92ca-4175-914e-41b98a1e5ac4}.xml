@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="AudioFile" id="{0394e70c-92ca-4175-914e-41b98a1e5ac4}">
 		<property name="assetPath">
-			<value>4.9.22 Music Imports/Loops/Panic_Alarm_V1.wav</value>
+			<value>4.9.22 Music Imports/Panic_Alarm_V1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

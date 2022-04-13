@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{4861d9ef-cb81-4af3-b4d6-2f888ad3b68c}">
+	<object class="AudioFile" id="{d5529d20-c011-4cf8-9a04-b8b09524b154}">
 		<property name="assetPath">
-			<value>4.9.22 Music Imports/Panic_Low_Loop_V1.wav</value>
+			<value>4.9.22 Music Imports/Loops/Panic_Mid_Loop_V1.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>57</value>
+			<value>54</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{31937443-0ff4-49fc-85e9-5886de490af1}</destination>
