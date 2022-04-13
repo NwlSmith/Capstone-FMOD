@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{bc832fd5-3328-4825-bc73-c9d6e0b8f007}">
+		<property name="assetPath">
+			<value>4.12.22 Music Imports/Drone Synth Oneshots/Drone_Synth_8.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.272</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{31937443-0ff4-49fc-85e9-5886de490af1}</destination>
+		</relationship>
+	</object>
+</objects>

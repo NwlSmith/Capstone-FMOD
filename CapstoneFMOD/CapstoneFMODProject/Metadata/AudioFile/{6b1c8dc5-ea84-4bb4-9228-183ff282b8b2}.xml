@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{6b1c8dc5-ea84-4bb4-9228-183ff282b8b2}">
+		<property name="assetPath">
+			<value>4.9.22 Music Imports/Oneshots/Panic - Low/Low_4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.4980000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{31937443-0ff4-49fc-85e9-5886de490af1}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{30488593-be0c-4d82-8e13-3ca1e27ad870}">
+		<property name="assetPath">
+			<value>4.9.22 Music Imports/Loops/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{31937443-0ff4-49fc-85e9-5886de490af1}</destination>
+		</relationship>
+	</object>
+</objects>
