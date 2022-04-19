@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{1466cd99-b366-4e24-8f09-02d44aa802e1}">
+		<property name="name">
+			<value>Docking</value>
+		</property>
+		<relationship name="folder">
+			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{38f1a74c-80c6-4134-ab1f-32c1e8a29eae}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{38f1a74c-80c6-4134-ab1f-32c1e8a29eae}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
