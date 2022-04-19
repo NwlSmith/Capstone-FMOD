@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{13ef5e34-d578-48e7-b5ef-6515305564a5}">
+		<property name="name">
+			<value>FoghornLocation</value>
+		</property>
+		<relationship name="folder">
+			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5e0b7014-99e9-4eb7-b8af-3c23aa9ee371}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5e0b7014-99e9-4eb7-b8af-3c23aa9ee371}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>9</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
