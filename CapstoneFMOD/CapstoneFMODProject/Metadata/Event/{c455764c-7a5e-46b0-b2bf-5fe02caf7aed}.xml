@@ -440,7 +440,7 @@
 			<value>1</value>
 		</property>
 		<property name="minimumDistance">
-			<value>0.319999993</value>
+			<value>0.600000024</value>
 		</property>
 		<property name="maximumDistance">
 			<value>7.5999999</value>

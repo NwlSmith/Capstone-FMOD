@@ -121,7 +121,7 @@
 			<value>0.5</value>
 		</property>
 		<property name="pitch">
-			<value>-3.20000005</value>
+			<value>1.60000002</value>
 		</property>
 		<relationship name="automators">
 			<destination>{1c8d5b2f-9ad3-446a-b452-6d6d742cffa3}</destination>
@@ -191,7 +191,7 @@
 			<value>pitch</value>
 		</property>
 		<property name="amount">
-			<value>10.5</value>
+			<value>21.5</value>
 		</property>
 		<relationship name="automators">
 			<destination>{22159859-6913-4aa0-b686-0c791b2ec69f}</destination>
@@ -344,7 +344,7 @@
 	<object class="MixerBusFader" id="{d6ce5bec-b502-4a44-8801-7fa49e2820ac}" />
 	<object class="DistortionEffect" id="{8c15a7fe-05c9-4ac8-8840-f88ff8e13cc7}">
 		<property name="level">
-			<value>0.389999986</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{48921376-c933-475b-ae4e-4de1f919fc25}">

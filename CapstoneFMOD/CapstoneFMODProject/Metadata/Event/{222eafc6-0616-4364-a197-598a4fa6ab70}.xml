@@ -121,6 +121,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{b6f3a610-0435-447d-b73b-e17b9568d006}">
+		<property name="volume">
+			<value>-17.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -146,9 +149,15 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ee5b1f51-8bf1-4298-8977-30808c36ef3a}">
+		<property name="volume">
+			<value>-20.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 2</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{e5348692-2a3e-49f7-9c79-6b958b313594}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{d38f8797-ac6b-4322-a208-4aba1d7f41f0}</destination>
 		</relationship>
@@ -198,6 +207,26 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{05beb34c-2608-43fd-89e2-52b70710f4ef}" />
+	<object class="ADSRModulator" id="{e5348692-2a3e-49f7-9c79-6b958b313594}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>0</value>
+		</property>
+		<property name="peakValue">
+			<value>1.15555573</value>
+		</property>
+		<property name="releaseTime">
+			<value>1403.84619</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{d38f8797-ac6b-4322-a208-4aba1d7f41f0}">
 		<relationship name="effects">
 			<destination>{3a0e047b-fa8b-44a9-86ba-11b3fe17701e}</destination>
@@ -271,12 +300,12 @@
 	<object class="MixerBusFader" id="{3a0e047b-fa8b-44a9-86ba-11b3fe17701e}" />
 	<object class="DistortionEffect" id="{55af3b4e-e5fa-4717-8546-e949d1359a6f}">
 		<property name="level">
-			<value>0.269999981</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{07ea59bb-f68e-4067-a918-7d870b0dcb07}">
 		<property name="decayTime">
-			<value>2200</value>
+			<value>500</value>
 		</property>
 		<property name="earlyDelay">
 			<value>19</value>
@@ -300,7 +329,7 @@
 			<value>1250</value>
 		</property>
 		<property name="wetLevel">
-			<value>8</value>
+			<value>-15</value>
 		</property>
 		<property name="dryLevel">
 			<value>-0.5</value>
