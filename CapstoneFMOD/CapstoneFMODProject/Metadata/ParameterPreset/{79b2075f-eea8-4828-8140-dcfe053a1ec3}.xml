@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{79b2075f-eea8-4828-8140-dcfe053a1ec3}">
+		<property name="name">
+			<value>BatteryDrained</value>
+		</property>
+		<relationship name="folder">
+			<destination>{13cd3889-9a81-46e6-95c7-18a15c7efc73}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{bd83e0f8-0a09-40f6-9dcc-b1044d6233f0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{bd83e0f8-0a09-40f6-9dcc-b1044d6233f0}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.42999997735023499</value>
+		</property>
+	</object>
+</objects>
