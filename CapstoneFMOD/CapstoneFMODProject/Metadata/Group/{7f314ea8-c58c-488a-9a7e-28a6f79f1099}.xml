@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>EngineRoom</value>
 		</property>
+		<relationship name="automators">
+			<destination>{48db0469-914c-4371-8d4a-ca8d4fd5402f}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{22cf6da5-a4a9-4299-8a56-7bb000b4e1eb}</destination>
 		</relationship>
@@ -14,11 +17,47 @@
 			<destination>{3a01cd31-19ec-4faf-addb-c3038ef5de75}</destination>
 		</relationship>
 	</object>
+	<object class="Automator" id="{48db0469-914c-4371-8d4a-ca8d4fd5402f}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{0afbcf6d-4c48-4dae-99e8-1c418d615f09}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{22cf6da5-a4a9-4299-8a56-7bb000b4e1eb}">
 		<relationship name="effects">
 			<destination>{a157e632-525b-4342-8fae-529da7020650}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{57703af3-2570-4955-b0f9-1eadbaf47bce}" />
+	<object class="AutomationCurve" id="{0afbcf6d-4c48-4dae-99e8-1c418d615f09}">
+		<relationship name="parameter">
+			<destination>{1464dab7-b5f1-4a19-99b7-b842617a19a5}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{4cd76774-fc42-4f56-9f85-a690127df791}</destination>
+			<destination>{44b5d754-df66-4ada-92f1-501f68324b94}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{a157e632-525b-4342-8fae-529da7020650}" />
+	<object class="AutomationPoint" id="{4cd76774-fc42-4f56-9f85-a690127df791}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.308262587</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{44b5d754-df66-4ada-92f1-501f68324b94}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 </objects>

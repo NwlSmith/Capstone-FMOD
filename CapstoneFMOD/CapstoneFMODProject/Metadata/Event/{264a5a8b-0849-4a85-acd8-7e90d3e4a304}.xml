@@ -101,11 +101,14 @@
 	<object class="MixerBusPanner" id="{98ac0afe-9a37-4ab7-8246-fca525be0040}" />
 	<object class="SingleSound" id="{83f83eeb-fc58-49e5-afed-f38c99db436c}">
 		<property name="length">
-			<value>0.59375</value>
+			<value>0.6171875</value>
 		</property>
 		<property name="timelockedOffset">
-			<value>0.8125</value>
+			<value>0.7890625</value>
 		</property>
+		<relationship name="fadeInCurve">
+			<destination>{ddd20e50-ff66-46ef-928b-b6c498d7b993}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{b2fa0676-dfa4-4de8-b093-c9cb08be49a8}</destination>
 		</relationship>
@@ -141,6 +144,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{13a77e06-d519-46e2-ba31-9a377f098ce6}" />
 	<object class="MixerBusFader" id="{9bc67f91-168c-4959-bdff-b0ea2bad0270}" />
+	<object class="FadeCurve" id="{ddd20e50-ff66-46ef-928b-b6c498d7b993}">
+		<relationship name="startPoint">
+			<destination>{27de1f79-5924-4abf-b256-67b25aec3cf7}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{6492c09c-2392-4e2a-9c61-8e76a3adb77c}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{acbd2673-81dd-4666-b202-71130a5d4b95}">
 		<relationship name="effects">
 			<destination>{b428c8a5-fc52-4481-a258-d54d5bfc535d}</destination>
@@ -175,6 +186,25 @@
 		</property>
 		<property name="maximumDistance">
 			<value>9000</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{27de1f79-5924-4abf-b256-67b25aec3cf7}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{6492c09c-2392-4e2a-9c61-8e76a3adb77c}">
+		<property name="position">
+			<value>0.015625</value>
+		</property>
+		<property name="value">
+			<value>1</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{b428c8a5-fc52-4481-a258-d54d5bfc535d}" />

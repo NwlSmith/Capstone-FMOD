@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{17237881-f2b8-4105-9206-db9766f03fcc}">
+		<property name="assetPath">
+			<value>EngineSounds/BatteryHum - Trimmed (2).wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>14.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{31937443-0ff4-49fc-85e9-5886de490af1}</destination>
+		</relationship>
+	</object>
+</objects>
