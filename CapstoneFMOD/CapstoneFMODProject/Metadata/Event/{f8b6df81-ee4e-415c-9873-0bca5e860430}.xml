@@ -118,6 +118,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9c1fa855-9c1e-4476-a957-3d543c1f4f34}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -249,7 +252,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>4.4000001</value>
+			<value>8</value>
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{26ef7e8b-c3ce-48cd-9b10-20a1ff08e0f2}">
@@ -318,7 +321,7 @@
 			<value>12</value>
 		</property>
 		<property name="value">
-			<value>-4</value>
+			<value>0</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.678020179</value>
